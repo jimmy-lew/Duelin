@@ -1,0 +1,94 @@
+{
+    "name": "SelectionActions",
+    "maps": [
+        {
+            "name": "Input",
+            "id": "c7140b44-066f-4662-ac7b-e3b47a713f56",
+            "actions": [
+                {
+                    "name": "Pos",
+                    "type": "Value",
+                    "id": "088d01a1-6f07-4858-a2a2-03a567a64a3d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "9bf6fd2e-fe08-4fe9-91ac-82d8de65a580",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CellSelect",
+                    "type": "Button",
+                    "id": "341c9519-c4ac-42e2-be43-23dd1eb7dd4c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drag",
+                    "type": "Value",
+                    "id": "68c05fd7-2bfb-4bfb-a680-a582ba3cf6eb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65f08ab8-84e9-4a12-8270-dffb8fab38bd",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e8ae33e6-d1dd-4c25-a2c2-f4b441657550",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f76e5ff7-f839-4cba-94a4-1cc76354591c",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CellSelect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2ceeda1-4f50-47f3-a00c-54238f149ae7",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

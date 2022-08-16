@@ -1,0 +1,74 @@
+{
+    "name": "EntityActions",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "f5980c1f-73e4-4032-88bd-09073a7f9438",
+            "actions": [
+                {
+                    "name": "LEFT_CLICK",
+                    "type": "Button",
+                    "id": "bc75af0c-ec84-45ee-a4cc-b3e98916d9ba",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "POS",
+                    "type": "Value",
+                    "id": "6e140c60-ced3-40f2-9608-30bc04489cca",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RIGHT_CLICK",
+                    "type": "Button",
+                    "id": "0d6d69d5-9482-41bc-ba11-0d5c7cab52e5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "08595cf7-defc-49c1-9e02-b3b3d12a98f2",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LEFT_CLICK",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4699fa2e-c529-4253-9499-727b63b42a29",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "POS",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08db62a4-db8e-4e7f-b5b2-d94aef2d1348",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RIGHT_CLICK",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

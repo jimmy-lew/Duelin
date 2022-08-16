@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Unit
+  - TurnManager
+  - GoldBar
+  - GoldAmount
+  - ShopPanel
+  - ShopManager
+  - ShopItem
+  - SpawnManager
+  - EndTurnButton
+  - GameManager
+  - Highlight
+  - Settings
+  - BuyButton
+  - PauseMenu
+  - WinLoseToast
+  - UnitStats
+  - UnitAbility
+  - Countdown
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Map
+  - Entities
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Map
+    uniqueID: 748148877
+    locked: 0
+  - name: Highlight
+    uniqueID: 2801898283
+    locked: 0
+  - name: Structures
+    uniqueID: 3794591207
+    locked: 0
+  - name: Entities
+    uniqueID: 4081543479
+    locked: 0
+  - name: Walls
+    uniqueID: 1275787747
+    locked: 0
+  - name: Panels
+    uniqueID: 3168082797
+    locked: 0
+  - name: Cards
+    uniqueID: 2642352737
+    locked: 0
+  - name: UI Hints
+    uniqueID: 3456566813
+    locked: 0
+  - name: ShopItems
+    uniqueID: 1300852789
+    locked: 0
+  - name: Buttons
+    uniqueID: 282977395
+    locked: 0
