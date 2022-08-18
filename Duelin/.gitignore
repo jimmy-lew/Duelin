@@ -22,6 +22,7 @@
 # Visual Studio cache directory
 .vs/
 .vscode/
+.vsconfig
 
 # Gradle cache directory
 .gradle/
@@ -48,6 +49,7 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+*.kra.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
@@ -64,4 +66,3 @@ crashlytics-build.properties
 *.dwlt
 *.kra
 *.kra~
-.vsconfig
